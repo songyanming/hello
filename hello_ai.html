@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 问候程序</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI 问候程序</h1>
+    <button onclick="greetUser()">开始问候</button>
+
+    <script>
+        function greetUser() {
+            const name = prompt("请输入你的名字:");
+            if (name) {
+                alert(`你好，${name}！很高兴认识你！`);
+            }
+        }
+    </script>
+</body>
+</html> 
