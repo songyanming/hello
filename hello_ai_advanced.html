@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 问候程序</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        p {
+            text-align: left;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI 问候程序</h1>
+        <h2>关于人工智能</h2>
+        <p>人工智能（AI）是计算机科学的一个分支，致力于开发能够执行通常需要人类智能的任务的系统。这些任务包括视觉感知、语音识别、决策和语言翻译等。</p>
+        
+        <h2>关于人类</h2>
+        <p>人类是地球上最具智慧的生物，具有复杂的思维能力、语言能力和社会行为。人类通过不断的学习和创新，推动了科技和文化的发展。</p>
+        
+        <button onclick="greetUser()">开始问候</button>
+    </div>
+
+    <script>
+        function greetUser() {
+            const name = prompt("请输入你的名字:");
+            if (name) {
+                alert(`你好，${name}！很高兴认识你！`);
+            }
+        }
+    </script>
+</body>
+</html> 
